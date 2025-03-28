@@ -1,4 +1,3 @@
-//issues in 15,12,11...Maybe shift_8 module isn't wired correctly 
 
 `timescale 1ns / 1ps
 
