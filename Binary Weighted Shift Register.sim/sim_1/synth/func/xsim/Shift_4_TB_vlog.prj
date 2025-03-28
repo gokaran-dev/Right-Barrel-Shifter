@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Shift_4_TB_func_synth.v" \
+"../../../../../Binary Weighted Shift Register.srcs/sim_1/new/Shift_4_TB.v" \
+
+# Do not sort compile order
+nosort

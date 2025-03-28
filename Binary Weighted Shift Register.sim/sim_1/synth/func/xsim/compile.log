@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.sim/sim_1/synth/func/xsim/Shift_Divider_TB_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_Divider
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.srcs/sim_1/new/Shift_Divider_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_Divider_TB

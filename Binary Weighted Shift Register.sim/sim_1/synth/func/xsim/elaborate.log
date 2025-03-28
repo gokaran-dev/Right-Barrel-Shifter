@@ -1,0 +1,20 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e363f191c7e4466c8c769ccbe74c6211 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Shift_Divider_TB_func_synth xil_defaultlib.Shift_Divider_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 17 for port 'dividend' [D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.srcs/sim_1/new/Shift_Divider_TB.v:10]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Shift_Divider
+Compiling module xil_defaultlib.Shift_Divider_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Shift_Divider_TB_func_synth
