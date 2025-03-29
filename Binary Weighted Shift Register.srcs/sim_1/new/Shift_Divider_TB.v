@@ -2,9 +2,9 @@
 
 module Shift_Divider_TB();
 
-    reg [15:0] dividend;
-    reg [3:0] divisor;
-    wire [15:0] result;
+    reg [7:0] dividend;
+    reg [2:0] divisor;
+    wire [7:0] result;
 
     Shift_Divider uut(
         .dividend(dividend),
@@ -13,34 +13,28 @@ module Shift_Divider_TB();
     );
 
     initial begin
-        dividend=16'b1010101010101010;
-        divisor=4'b0000;
+        dividend=8'b10101010;
+        divisor=3'b000;
         
         #10;
-        
-        divisor=4'b0001;
+        divisor=3'b001;
         #10;
 
-        divisor=4'b0010;
+        divisor=3'b010;
         #10;
 
-        divisor=4'b0100;
+        divisor=3'b100;
         #10;
 
-        divisor=4'b1000;
+        divisor=3'b101;
         #10;
 
-        divisor=4'b1100;
+        divisor=3'b110;
         #10;
 
-        divisor=4'b0110;
+        divisor=3'b111;
         #10;
 
-        divisor=4'b1011;
-        #10;
-
-        divisor=4'b1111;
-        #10;
 
         $finish;
     end

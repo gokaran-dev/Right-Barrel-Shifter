@@ -25,7 +25,7 @@ module Shift_1(
             MUX_2x1 m13(.data1(data[12]),.data2(data[13]),.y(q[12]),.sel(en));
             MUX_2x1 m14(.data1(data[13]),.data2(data[14]),.y(q[13]),.sel(en));
             MUX_2x1 m15(.data1(data[14]),.data2(data[15]),.y(q[14]),.sel(en));
-            assign q[15]=data[15];
+            assign q[15]=1'b0;
                 
         
 endmodule

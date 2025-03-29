@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35ticpg236-1L
 
@@ -91,7 +89,6 @@ read_verilog -library xil_defaultlib {
   {D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.srcs/sources_1/new/Shift_1.v}
   {D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.srcs/sources_1/new/Shift_2.v}
   {D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.srcs/sources_1/new/Shift_4.v}
-  {D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.srcs/sources_1/new/Shift_8.v}
   {D:/Mtech/Vivado/Binary Weighted Shift Register/Binary Weighted Shift Register.srcs/sources_1/new/Shift_Divider.v}
 }
 OPTRACE "Adding files" END { }

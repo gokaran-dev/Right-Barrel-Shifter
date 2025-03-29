@@ -23,10 +23,10 @@ module Shift_4(
             MUX_2x1 m11(.data1(data[10]),.data2(data[14]),.y(q[10]),.sel(en));
             MUX_2x1 m12(.data1(data[11]),.data2(data[15]),.y(q[11]),.sel(en));
         
-            assign q[12]=data[15];
-            assign q[13]=data[15];
-            assign q[14]=data[15];
-            assign q[15]=data[15];
+            assign q[12]=1'b0;
+            assign q[13]=1'b0;
+            assign q[14]=1'b0;
+            assign q[15]=1'b0;
                 
         
 endmodule
