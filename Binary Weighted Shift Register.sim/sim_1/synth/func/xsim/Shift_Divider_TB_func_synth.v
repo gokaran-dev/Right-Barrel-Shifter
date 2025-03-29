@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-// Date        : Sat Mar 29 18:01:18 2025
+// Date        : Sat Mar 29 18:38:21 2025
 // Host        : DESKTOP-IJF0GJG running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode funcsim -nolib -force -file {D:/Mtech/Vivado/Binary Weighted Shift Register/Binary
 //               Weighted Shift Register.sim/sim_1/synth/func/xsim/Shift_Divider_TB_func_synth.v}
@@ -121,15 +121,14 @@ module Shift_Divider
   OBUF \result_OBUF[2]_inst 
        (.I(result_OBUF[2]),
         .O(result[2]));
-  LUT6 #(
-    .INIT(64'h00E2FFFF00E20000)) 
+  LUT5 #(
+    .INIT(32'h04FF0400)) 
     \result_OBUF[2]_inst_i_1 
-       (.I0(dividend_IBUF[6]),
-        .I1(divisor_IBUF[0]),
-        .I2(dividend_IBUF[7]),
-        .I3(divisor_IBUF[1]),
-        .I4(divisor_IBUF[2]),
-        .I5(\result_OBUF[2]_inst_i_2_n_0 ),
+       (.I0(divisor_IBUF[0]),
+        .I1(dividend_IBUF[6]),
+        .I2(divisor_IBUF[1]),
+        .I3(divisor_IBUF[2]),
+        .I4(\result_OBUF[2]_inst_i_2_n_0 ),
         .O(result_OBUF[2]));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
